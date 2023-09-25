@@ -10,8 +10,9 @@ const POKEMONS = [
   {id: 94,  name: 'Gengar',     type: 'poison',   base_experience: 225},
   {id: 133, name: 'Eevee',      type: 'normal',   base_experience: 65}
 ]
-//FIXME: docstrings. name of component, props it takes, etc. pokedex passes to pokecard...
+
 /** Main app component */
+
 function App() {
   return <Pokedex pokemons={POKEMONS} />
 }

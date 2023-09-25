@@ -2,6 +2,13 @@ import "./Pokecard.css"
 
 const POKEMON_IMG_BASE_URL = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/"
 
+/** Takes in id, name, type, base_experience.
+ *
+ * Returns div element.
+ *
+ * Passes to Pokedex.
+ */
+
 function Pokecard({id, name, type, base_experience}) {
   return (
     <div className="Pokecard">

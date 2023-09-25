@@ -1,6 +1,13 @@
 import Pokecard from "./Pokecard";
 import styles from "./Pokedex.css";
 
+/** Takes in pokemons array.
+ *
+ * Returns div element containing a Pokecard for each pokemon in array.
+ *
+ * Passes to App.
+ */
+
 function Pokedex({ pokemons }) {
   return (
     <div className="Pokedex">
