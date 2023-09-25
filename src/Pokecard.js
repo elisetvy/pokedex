@@ -1,4 +1,4 @@
-import styles from "./Pokecard.css"
+import "./Pokecard.css"
 
 const POKEMON_IMG_BASE_URL = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/"
 
