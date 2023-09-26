@@ -16,7 +16,6 @@ function Pokedex({ pokemons, isWinner }) {
         name={pokemon.name}
         type={pokemon.type}
         base_experience={pokemon.base_experience} />)}
-        <br></br>
       <b>{ isWinner ? "THIS HAND WINS" : null }</b>
     </div>
   );
