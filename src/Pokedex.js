@@ -1,5 +1,5 @@
 import Pokecard from "./Pokecard";
-import styles from "./Pokedex.css";
+import "./Pokedex.css";
 
 /** Takes in pokemons array.
  *
