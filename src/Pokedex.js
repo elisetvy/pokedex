@@ -8,7 +8,7 @@ import styles from "./Pokedex.css";
  * Passes to App.
  */
 
-function Pokedex({ pokemons }) {
+function Pokedex({ pokemons, isWinner }) {
   return (
     <div className="Pokedex">
       {pokemons.map(pokemon => <Pokecard
@@ -16,6 +16,8 @@ function Pokedex({ pokemons }) {
         name={pokemon.name}
         type={pokemon.type}
         base_experience={pokemon.base_experience} />)}
+        <br></br>
+      <b>{ isWinner ? "THIS HAND WINS" : null }</b>
     </div>
   );
 }

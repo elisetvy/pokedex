@@ -1,4 +1,4 @@
-import Pokedex from "./Pokedex";
+import Pokegame from "./Pokegame";
 
 const POKEMONS = [
   {id: 4,   name: 'Charmander', type: 'fire',     base_experience: 62},
@@ -14,7 +14,7 @@ const POKEMONS = [
 /** Main app component */
 
 function App() {
-  return <Pokedex pokemons={POKEMONS} />
+  return <Pokegame pokemons={POKEMONS} />
 }
 
 export default App;
